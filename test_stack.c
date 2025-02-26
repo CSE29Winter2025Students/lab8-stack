@@ -1,7 +1,7 @@
 #include "stack.h"
 #include <assert.h>
 
-int test_push_pop_empty() {
+void test_push_pop_empty() {
     reset();
     push(24);
     assert(pop() == 24);
