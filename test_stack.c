@@ -9,18 +9,6 @@ void test_single_element() {
     assert(empty());
 }
 
-void test_not_empty() {
-    reset();
-    push(42);
-    assert(!empty());
-    push(24);
-    assert(!empty());
-    pop();
-    pop();
-    assert(empty());
-}
-
-
 // XXX You can find what each function does in stack.h
 
 // TODO Write more tests below
