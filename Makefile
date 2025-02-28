@@ -12,5 +12,5 @@ test_%:	stack.o test_%.c
 .PHONY:	clean
 
 clean:
-	rm -fr *.o test_*
+	rm -fr *.o test_stack
 
