@@ -9,7 +9,7 @@ void test_single_element() {
     assert(empty());
 }
 
-// XXX You can verify how all the functions work in stack.h
+// XXX You can find what each function does in stack.h
 
 // TODO Write more tests below
 // Since your tests depend on functions written by your row's other teams,
