@@ -5,7 +5,7 @@
 struct Node *stackTop;
 
 int empty() { return stackTop == NULL; }
-void reset() {
+void clear() {
     while (!empty())
         pop();
 }

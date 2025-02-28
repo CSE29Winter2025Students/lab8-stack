@@ -1,12 +1,15 @@
 #include "stack.h"
 #include <assert.h>
 
-int test_push_pop_empty() {
+// An example test
+int test_single_element() {
     reset();
     push(24);
     assert(pop() == 24);
     assert(empty());
 }
+
+// XXX You can verify how all the functions work in stack.h
 
 // TODO Write more tests below
 // Since your tests depend on functions written by your row's other teams,
@@ -18,5 +21,5 @@ int main() {
 
     // Keep this call here so that you don't leak the nodes left over from
     // the last test
-    reset();
+    clear();
 }

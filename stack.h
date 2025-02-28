@@ -41,6 +41,6 @@ int empty();
 /**
  * Pop all items from the stack.
  */
-void reset();
+void clear();
 
 #endif
