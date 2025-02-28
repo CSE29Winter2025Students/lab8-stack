@@ -2,7 +2,7 @@
 #include <assert.h>
 
 // An example test
-int test_single_element() {
+void test_single_element() {
     reset();
     push(24);
     assert(pop() == 24);
